@@ -18,7 +18,7 @@ int main()
     printf("values after function call:\n");
     printf("a = %d, b = %d\n",a, b);
 
-    printf("\n\n We swap here. actully its pass by reference");
+    printf("\n\n We swap here. its pass by reference");
     return 0;
 }
 
