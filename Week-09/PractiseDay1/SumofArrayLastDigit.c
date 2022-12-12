@@ -17,7 +17,7 @@ int main()
     {
         scanf("%d",&arra[i]);
     }
-    int s=solve(arra,n);4
+    int s=solve(arra,n);
     printf("%d",s);
     return 0;
 }
