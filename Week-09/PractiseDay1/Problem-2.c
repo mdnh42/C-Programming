@@ -1,20 +1,23 @@
 #include<stdio.h>
-int sumofDigts(int digit[], int num)
+
+int solve(int arra[],int n)
 {
-    if(digit==0)
-        return 0; 
-    return ((digit%10)+sumofDigts(digit/10));
+    if(n==0)
+    return 0;
+    int s=solve(arra+1,n-1);
+    return s + *(arra)%10;
 }
+
 int main()
 {
-    int num, sum, digit[num]; 
-    scanf("%d", &num);
-    for(int i=0; i<num; i++)
+    int n;
+    scanf("%d",&n);
+    int arra[n];
+    for(int i=0;i<n;i++)
     {
-        scanf("%d",&digit[i])
+        scanf("%d",&arra[i]);
     }
-    sum = sumofDigts(digit, num);
-
-    printf("%d", sum);
-    return 0; 
+    int s=solve(arra,n);
+    printf("%d",s);
+    return 0;
 }
