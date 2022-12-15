@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    FILE *inputFile = fopen("input.txt", "r");
+    FILE *inputFile = fopen("input100.txt", "r");
     if(inputFile == NULL)
     {
         printf("input Not Found");
