@@ -1,4 +1,4 @@
-<span style="color: orange">#Day1 (Satureday) </spam>
+```#Day1 (Satureday) 
 - Game Tic-Tac-Toe
 
 #Day2 (Sunday)
@@ -24,3 +24,4 @@
 
 #Day7 (Friday)
 -File Fcanf, Fprinf, Fclose. 
+```
