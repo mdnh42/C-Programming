@@ -1,7 +1,9 @@
 #Day1 (Satureday)
 - Game Tic-Tac-Toe
+
 #Day2 (Sunday)
 - Pattern HeakerRank
+
 #Day3 (Monday)
 - Find Unique, Duplicate Value from Array. 
 - Sorting Ascending and Decending Order 
@@ -17,7 +19,8 @@
 - Malloc, Alloc and Relloc 
 
 #Day6 (Thursday)
-- Recursion GCD, Fibonacci 
-- File. 
+- Recursion GCD, Fibonacci, Factorial. 
+
 
 #Day7 (Friday)
+-File Fcanf, Fprinf, Fclose. 
