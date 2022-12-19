@@ -1,4 +1,4 @@
-```#Day1 (Satureday) 
+#Day1 (Satureday) 
 - Game Tic-Tac-Toe
 
 #Day2 (Sunday)
@@ -24,4 +24,3 @@
 
 #Day7 (Friday)
 -File Fcanf, Fprinf, Fclose. 
-```
