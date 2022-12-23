@@ -1,4 +1,9 @@
-
+# Structure
+    - Declare Structure (struct)
+    - Designated Initization 
+    - Array of Structure
+    - Structure Pointer 
+    
 
 
 
