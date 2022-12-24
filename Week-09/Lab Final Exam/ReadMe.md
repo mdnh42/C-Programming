@@ -1,4 +1,4 @@
-#WOW Pattern's Again
+# WOW Pattern's Again
 Problem
 Submissions
 Leaderboard
@@ -50,7 +50,7 @@ Sample Output 2
  ^^^^^^^^^
 ***********
 
-#Sort and Difference
+# Sort and Difference
 Problem
 Submissions
 Leaderboard
@@ -111,7 +111,7 @@ Sample Output 1
 
 -9 -6 -1 2 5 8 
 
-#FIFA Year
+# FIFA Year
 Problem Statement
 
 We are very enjoining this year FIFA world 2022, Qatar.
@@ -148,7 +148,7 @@ Sample Output 2
 
 No
 
-#Reverse Code
+# Reverse Code
 Problem Statement
 
 Riyad found a note written in code word which is integer numbers. Here each number [1 – 9] represent [A – I].But if the number is more than one digit it reverse itself.
@@ -197,7 +197,7 @@ Sample Input 1
 Sample Output 1
 
 HHHHH
-#Twin Number
+# Twin Number
 Problem
 Submissions
 Leaderboard
@@ -235,7 +235,7 @@ Sample Input 1
 Sample Output 1
 
 150
-#L to R
+# L to R
 Problem Statement
 
 You are given two positive integers L and R. Now print the prime numbers between L to R.
@@ -267,7 +267,7 @@ Sample Output 0
 11 13 17
 5 7 11 13 17
 
-#Unique Unique
+# Unique Unique
 Problem
 Submissions
 Leaderboard
@@ -305,7 +305,7 @@ Sample Output 1
 5
 
 
-#Hexa pairs
+# Hexa pairs
 
 Problem Statement
 Yo are given an array of n positive integers. Now count the total HEXA pairs. Two numbers are said to be HEXA numbers if their Greatest Common Divisor(GCD) is 1. Here pairs means two different index values, means if A[i] and A[j] are the two values and that time i!=j. And the range of i and j -> 1 <= i,j <= n.
@@ -337,7 +337,6 @@ Sample Output 0
 10
 2
 Explanation 0
-
 In the first test case, total possible pairs are-
 i=1,j=2 -> A1=2,A2=1 -> gcd(A1,A2)=1
 i=1,j=4 -> A1=2,A4=7 -> gcd(A1,A4)=1
