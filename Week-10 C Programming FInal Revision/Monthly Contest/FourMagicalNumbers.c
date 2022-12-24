@@ -1,40 +1,44 @@
 #include <stdio.h>
+void sort(int *ptr, int size);
+
 int main()
 {
-    long long int t;
-    scanf("%lld",&t);
-    for(int i=0; i<t; i++)
+    int t, n;
+    scanf("%d",&t);
+    int mam,maa,mim,mia;
+    while(t--)
     {
-        int a[1005],i,large,small;
-        long long int n;
-        scanf("%lld",&n);
-
-        for(i=0; i<n; ++i)
-            scanf("%d",&a[i]);
-        large=small=a[0];
-        for(i=1; i<n; ++i)
-        {
-            if(a[i]>large)
-                large=a[i];
-            if(a[i]<small)
-                small=a[i];
-        }
-
-        int maxPro = large*large;
-        int minPro = small*small;
-        int maxSum = large+large;
-        int minSum = small+small;
-
-        if(maxPro<minPro)
-        {
-            printf("%d %d %d %d\n", minPro,maxPro, maxSum, minSum);
-        }
-        else
-            printf("%d %d %d %d\n", maxPro, minPro, maxSum, minSum);
-
+        scanf("%d",&n);
+        int a[n];
+        for(int i = 0; i<n ; i++)
+            scanf("%d",a+i);
+        sort(a,n);
+        mam = (a[n-1]*a[n-1])>(a[0]*a[0])?(a[n-1]*a[n-1]):(a[0]*a[0]);
+        if(a[0]<=0&&a[n-1]>=0)
+            mim=a[0]*a[n-1];
+        else if(a[0]>=0)
+            mim = a[0]*a[0];
+        else mim = a[n-1]*a[n-1];
+        maa = a[n-1]*2;
+        mia = 2*a[0];
+        printf("%d %d %d %d\n",mam, mim, maa, mia);
     }
-
-
     return 0;
 }
 
+void sort(int *ptr, int size  )
+{
+    int * base_addr=ptr, item, *left;
+    ptr++;
+    for(ptr; ptr<base_addr+size; ptr++)
+    {
+        item = *ptr;
+        left = ptr-1;
+        while(left>=base_addr && item<*left)
+        {
+            *(left+1)=*left;
+            --left;
+        }
+        *(++left) = item;
+    }
+}
